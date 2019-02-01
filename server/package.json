@@ -1,0 +1,29 @@
+{
+  "name": "bookstore-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izh-dev/bookstore.git"
+  },
+  "author": "Sergey Panay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/izh-dev/bookstore/issues"
+  },
+  "homepage": "https://github.com/izh-dev/bookstore#readme",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
